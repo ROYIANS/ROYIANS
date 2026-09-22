@@ -111,15 +111,14 @@ def card(name, number, label, title, subtitle, kind):
         c += rect(426,218,51,23,'orange') + rect(435,207,51,13,'yellow')
         c += rect(483,186,18,32,'green') + circle(493,178,15,'green')
         c += star(278,221,15,'orange')
-    else:
-        c += rect(275,175,257,96,'ink', 'rx="7"')
-        c += rect(287,187,233,72,'paper','rx="2"')
-        for x in range(298,519,22): c += line(x,197,x,247,'line',1)
-        for y in range(197,248,10): c += line(297,y,510,y,'line',1)
-        for x,y,w in [(298,227,35),(333,207,25),(358,217,28),(386,197,32),(417,217,24),(441,207,33),(474,227,35)]:
-            c += rect(x,y,w,8,'blue')
-        c += star(461,135,23,'blue') + star(251,224,13,'orange')
-    c += text(29,271,{'cue':'STORY → SOUND','print':'CANVAS → PAPER','room':'OBJECTS → STORIES','sound':'IDEAS → 8-BIT'}[kind],12,'muted','mono')
+    elif kind == 'paths':
+        c += circle(463,166,41,'yellow')
+        c += f'<path d="M360 281V240Q360 217 334 202L291 177" fill="none" stroke="{P["green"]}" stroke-width="25"/>'
+        c += f'<path d="M386 281V240Q386 217 415 202L484 162" fill="none" stroke="{P["blue"]}" stroke-width="25"/>'
+        c += f'<path d="M285 202L276 164L315 161Z" fill="{P["green"]}"/>'
+        c += f'<path d="M462 145L503 150L487 187Z" fill="{P["blue"]}"/>'
+        c += star(523,242,18,'orange')
+    c += text(29,271,{'cue':'STORY → SOUND','print':'CANVAS → PAPER','room':'OBJECTS → STORIES','paths':'EXPERIENCE → POSSIBILITY'}[kind],12,'muted','mono')
     svg(name,580,304,c,title+' — '+subtitle)
 
 
@@ -135,7 +134,7 @@ for theme, P in PALETTES.items():
     card('cuepoint','01','CREATIVE TOOLS','Cuepoint','A LOCAL-FIRST AI STUDIO','cue')
     card('foliq','02','DESIGN ENGINEERING','Foliq','THOUGHTFULLY PUT TO PAPER','print')
     card('dicha','03','EVERYDAY LIFE','Dicha','A LITTLE ROOM FOR YOUR LIFE','room')
-    card('famistudio','04','MUSIC EXPERIMENTS','FamiStudio','SMALL CHIPS. BIG FEELINGS.','sound')
+    card('thetwo','04','PERSONAL POSSIBILITIES','TheTwo','YOUR NEXT CHAPTER, YOUR CHOICE.','paths')
     footer()
 
 print(f'Generated 12 SVG assets in {OUT}')

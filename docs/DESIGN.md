@@ -9,7 +9,7 @@
 - 主标题：**Small ideas. Real things.**
 - 浅色：暖纸色、墨黑、苔绿、朱橙，少量灰蓝与明黄。
 - 深色：深墨绿底、米白文字、柔和的橙与绿。
-- 图形：拱门代表小小的创作空间，纸张呼应 Foliq，声波与播放按钮呼应 Cuepoint，房间呼应 Dicha，音序格呼应 FamiStudio。
+- 图形：拱门代表小小的创作空间，纸张呼应 Foliq，声波与播放按钮呼应 Cuepoint，房间呼应 Dicha，分岔道路呼应 TheTwo。
 - 主视觉使用 Georgia 衬线字体，辅助标注使用系统等宽字体。图片不依赖外部字体下载。
 - 主要内容保留为可选择、可访问的正文，每张图片有替代文本。
 
@@ -23,9 +23,10 @@
 - [Foliq](https://github.com/ROYIANS/foliq-print-template-designer)：结构化文档设计与确定性 PDF 输出；v2 重写仍在进行。
 - [Dicha](https://github.com/ROYIANS/dicha)：个人物品与房间管理；Pre-alpha，像素空间是后续方向。配图为概念插画，不是产品截图。
 - [FamiStudio Compose Skill](https://github.com/ROYIANS/famistudio-compose-skill)：NES 芯片音乐创作、结构化编辑、校验和官方工具渲染。
-- [Wabi](https://github.com/ROYIANS/Wabi)：生活管理 PWA。
 - [TheTwo](https://github.com/ROYIANS/TheTwo)：早期产品设计，尚无可运行版本。
 - [Dreamland Book](https://github.com/ROYIANS/hexo-theme-dreamlandbook)：基于 Maple 修改的 Hexo 主题。
+
+按作者确认，精选项目为 Cuepoint、Foliq、Dicha、TheTwo；FamiStudio 移至工作台，Wabi 不展示。图来 · TULAI 使用作者提供的介绍，仅展示公开产品地址 https://tulai.design/，不链接私有仓库。作者确认的博客地址为 https://vidorra.life/，不将它标记为梦岛书主题演示。择途的 https://royians.github.io/TheTwo/ 是概念原型，因此入口明确标注「概念预览」。Dicha 提供 https://dicha.life/ 入口；FamiStudio 提供 Boss Chase 音频文件入口。
 
 自我介绍是一版基于上述项目方向写作的个人文案，可直接调整语气。未写入未经确认的职位、雇主、城市、联系方式或履历。保留原 README 的爱发电地址。
 
