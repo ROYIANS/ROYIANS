@@ -1,0 +1,10 @@
+# Local editor and macOS files
+.idea/
+.DS_Store
+
+# Generated previews
+.preview/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
