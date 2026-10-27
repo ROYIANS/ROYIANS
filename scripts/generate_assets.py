@@ -131,7 +131,7 @@ def footer():
 
 for theme, P in PALETTES.items():
     hero()
-    card('cuepoint','01','CREATIVE TOOLS','Cuepoint','A LOCAL-FIRST AI STUDIO','cue')
+    card('momoki','01','CREATIVE TOOLS','Momoki','A LOCAL-FIRST AI STUDIO','cue')
     card('foliq','02','DESIGN ENGINEERING','Foliq','THOUGHTFULLY PUT TO PAPER','print')
     card('dicha','03','EVERYDAY LIFE','Dicha','A LITTLE ROOM FOR YOUR LIFE','room')
     card('thetwo','04','PERSONAL POSSIBILITIES','TheTwo','YOUR NEXT CHAPTER, YOUR CHOICE.','paths')

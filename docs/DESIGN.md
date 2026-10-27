@@ -9,7 +9,7 @@
 - 主标题：**Small ideas. Real things.**
 - 浅色：暖纸色、墨黑、苔绿、朱橙，少量灰蓝与明黄。
 - 深色：深墨绿底、米白文字、柔和的橙与绿。
-- 图形：拱门代表小小的创作空间，纸张呼应 Foliq，声波与播放按钮呼应 Cuepoint，房间呼应 Dicha，分岔道路呼应 TheTwo。
+- 图形：拱门代表小小的创作空间，纸张呼应 Foliq，声波与播放按钮呼应 Momoki，房间呼应 Dicha，分岔道路呼应 TheTwo。
 - 主视觉使用 Georgia 衬线字体，辅助标注使用系统等宽字体。图片不依赖外部字体下载。
 - 主要内容保留为可选择、可访问的正文，每张图片有替代文本。
 
@@ -17,16 +17,18 @@
 
 ## 内容依据
 
-2026-09-22 核对了 GitHub 公开账号信息、原创仓库列表及以下项目的公开 README：
+初版于 2026-09-22 根据 GitHub 公开账号信息、原创仓库列表及项目 README 整理。2026-10-27 重新核对仓库归属、Momoki 与 Foliq 的在线入口，以及图来设计、搭搭和 AI Platform 的当前公开介绍；其余项目沿用原有文案与阶段标注：
 
-- [Cuepoint](https://github.com/ROYIANS/Cuepoint)：本地优先 AI 创作工作室，视频、音频、音乐项目和自带模型连接。
-- [Foliq](https://github.com/ROYIANS/foliq-print-template-designer)：结构化文档设计与确定性 PDF 输出；v2 重写仍在进行。
+- [Momoki · 默默](https://github.com/tulai-design/momoki)：本地优先 AI 创作工作室，分镜、音频、音乐项目和自带模型连接，支持浏览器与桌面使用。原 Cuepoint 仓库已迁移至组织并更名；在线入口为 https://momoki.tulai.design/。
+- [Foliq](https://github.com/ROYIANS/foliq-print-template-designer)：结构化文档设计与确定性 PDF 输出；v2 重写仍在进行。源码仍在个人账号，在线入口已更新为 https://foliq.tulai.design/。
 - [Dicha](https://github.com/ROYIANS/dicha)：个人物品与房间管理；Pre-alpha，像素空间是后续方向。配图为概念插画，不是产品截图。
+- [搭搭](https://github.com/tulai-design/dada-home)：本地优先的 AI 个人主页，支持组件、主题与自编小工具；在线入口为 https://dada.tulai.design/。
+- [AI Platform](https://github.com/tulai-design/ai-platform)：供产品复用的 Agent 执行与模型协议基础库。
 - [FamiStudio Compose Skill](https://github.com/ROYIANS/famistudio-compose-skill)：NES 芯片音乐创作、结构化编辑、校验和官方工具渲染。
 - [TheTwo](https://github.com/ROYIANS/TheTwo)：早期产品设计，尚无可运行版本。
 - [Dreamland Book](https://github.com/ROYIANS/hexo-theme-dreamlandbook)：基于 Maple 修改的 Hexo 主题。
 
-按作者确认，精选项目为 Cuepoint、Foliq、Dicha、TheTwo；FamiStudio 移至工作台，Wabi 不展示。图来 · TULAI 使用作者提供的介绍，仅展示公开产品地址 https://tulai.design/，不链接私有仓库。作者确认的博客地址为 https://vidorra.life/，不将它标记为梦岛书主题演示。择途的 https://royians.github.io/TheTwo/ 是概念原型，因此入口明确标注「概念预览」。Dicha 提供 https://dicha.life/ 入口；FamiStudio 提供 Boss Chase 音频文件入口。
+保留作者此前确认的四个精选项目位置：Momoki（原 Cuepoint）、Foliq、Dicha、TheTwo；FamiStudio 保留在工作台，Wabi 不展示。图来设计官网 https://tulai.design/ 当前定位为「小而认真的工具工作室」，Profile 因此改为工作室介绍并链接公开组织 https://github.com/tulai-design，补充搭搭与 AI Platform。只展示公开项目，不链接私有仓库。作者确认的博客地址为 https://vidorra.life/，不将它标记为梦岛书主题演示。择途的 https://royians.github.io/TheTwo/ 是概念原型，因此入口明确标注「概念预览」。Dicha 提供 https://dicha.life/ 入口；FamiStudio 提供 Boss Chase 音频文件入口。
 
 自我介绍是一版基于上述项目方向写作的个人文案，可直接调整语气。未写入未经确认的职位、雇主、城市、联系方式或履历。保留原 README 的爱发电地址。
 

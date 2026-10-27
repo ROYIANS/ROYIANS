@@ -6,6 +6,7 @@
 <p align="center">
   <a href="#selected-work">精选项目</a> &nbsp; / &nbsp;
   <a href="#the-workbench">工作台</a> &nbsp; / &nbsp;
+  <a href="https://github.com/tulai-design">图来设计 ↗</a> &nbsp; / &nbsp;
   <a href="https://github.com/ROYIANS?tab=repositories">全部仓库 ↗</a> &nbsp; / &nbsp;
   <a href="https://vidorra.life/">博客 ↗</a> &nbsp; / &nbsp;
   <a href="https://afdian.com/a/ROYIANS">爱发电 ↗</a>
@@ -15,6 +16,7 @@
 
 我喜欢把想法做成可以亲手使用的东西：从分镜、声音和文档，到房间里的一本书、一件小物。
 最近在探索 AI 与创作工具，也一直在做那些让日常多一点温度的小项目。
+现在也在 [图来设计 · TULAI DESIGN](https://github.com/tulai-design) 继续做这些工具。
 
 **让创作更自由，让工具更顺手，让生活保留一点趣味。**
 
@@ -26,16 +28,16 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/ROYIANS/Cuepoint">
+      <a href="https://github.com/tulai-design/momoki">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="assets/cuepoint-dark.svg">
-          <img src="assets/cuepoint-light.svg" width="100%" alt="01 / Cuepoint 小光点 — AI 创作工作室">
+          <source media="(prefers-color-scheme: dark)" srcset="assets/momoki-dark.svg">
+          <img src="assets/momoki-light.svg" width="100%" alt="01 / Momoki 默默 — AI 创作工作室">
         </picture>
       </a>
-      <h3><a href="https://github.com/ROYIANS/Cuepoint">Cuepoint · 小光点</a></h3>
-      <p>把故事、分镜、声音和音乐放进同一个 AI 创作工作室。项目保存在浏览器，模型由你选择。</p>
+      <h3><a href="https://github.com/tulai-design/momoki">Momoki · 默默</a></h3>
+      <p>把故事、分镜、声音和音乐放进同一个 AI 创作工作室。支持浏览器与桌面使用，项目保存在本地，模型由你选择。</p>
       <p><code>React</code> <code>TypeScript</code> <code>IndexedDB</code></p>
-      <p><a href="https://cue.vidorra.life/">打开工作室 ↗</a> &nbsp; <a href="https://github.com/ROYIANS/Cuepoint">源码 ↗</a></p>
+      <p><a href="https://momoki.tulai.design/">打开工作室 ↗</a> &nbsp; <a href="https://github.com/tulai-design/momoki">源码 ↗</a></p>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/ROYIANS/foliq-print-template-designer">
@@ -47,7 +49,7 @@
       <h3><a href="https://github.com/ROYIANS/foliq-print-template-designer">Foliq</a></h3>
       <p>从画布到纸张的文档设计器。连接可视化编辑、数据绑定、版本管理与确定性 PDF 输出。</p>
       <p><code>React</code> <code>NestJS</code> <code>PDF</code></p>
-      <p><a href="https://foliq.vidorra.life/">打开设计器 ↗</a> &nbsp; <a href="https://github.com/ROYIANS/foliq-print-template-designer">源码 ↗</a> &nbsp; <sub>v2 重写中</sub></p>
+      <p><a href="https://foliq.tulai.design/">打开设计器 ↗</a> &nbsp; <a href="https://github.com/ROYIANS/foliq-print-template-designer">源码 ↗</a> &nbsp; <sub>v2 重写中</sub></p>
     </td>
   </tr>
   <tr>
@@ -83,7 +85,9 @@
 <a id="the-workbench"></a>
 ## The workbench · 还在折腾什么
 
-- **[图来 · TULAI](https://tulai.design/)** — 一个把图片生成 Skill、Agent 工作流和视觉模板整合到一起的产品：用户上传一张图，选择想要的感觉，图来负责分析、组装提示词、调用模型、检查结果并给出可继续 Remix 的成片。<br>[打开图来 ↗](https://tulai.design/)
+- **[图来设计 · TULAI DESIGN](https://github.com/tulai-design)** — 小而认真的工具工作室，放着正在做的创作工具和个人工作台。<br>[工作室主页 ↗](https://tulai.design/) · [开源项目 ↗](https://github.com/tulai-design)
+- **[搭搭 · DaDa](https://github.com/tulai-design/dada-home)** — 用 AI 搭自己的起始页，把常用信息、组件和小工具放在一起，数据保存在本机。<br>[打开搭搭 ↗](https://dada.tulai.design/) · [源码 ↗](https://github.com/tulai-design/dada-home)
+- **[AI Platform](https://github.com/tulai-design/ai-platform)** — 从产品中整理出的 Agent 执行与模型协议基础库，供不同应用复用。<br>[源码与接入说明 ↗](https://github.com/tulai-design/ai-platform)
 - **[FamiStudio Compose](https://github.com/ROYIANS/famistudio-compose-skill)** — 让 AI 参与 NES 芯片音乐创作。从作曲计划、乐谱编辑到校验与渲染，把灵感变成能听见的旋律。<br>[听听 Boss Chase ↗](https://github.com/ROYIANS/famistudio-compose-skill/blob/main/boss-chase/boss-chase.mp3) · [源码 ↗](https://github.com/ROYIANS/famistudio-compose-skill)
 - **[Dreamland Book · 梦岛书](https://github.com/ROYIANS/hexo-theme-dreamlandbook)** — 为文字留一处空间，一款基于 Maple 修改的 Hexo 博客主题。<br>[我的博客 ↗](https://vidorra.life/) · [源码 ↗](https://github.com/ROYIANS/hexo-theme-dreamlandbook) · <sub>早期作品</sub>
 
